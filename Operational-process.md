@@ -19,18 +19,18 @@ A member of the support team will be available online from 8am to 6pm. This team
 
 ## How does the support sub team work
 
-The support sub team will consist of 2 or 3 engineers. On average each team member will be on the sub team for 2 weeks every 6 weeks.
+The support sub team will consist of 2 engineers. On average each team member will be on the sub team for 2 weeks every 6 weeks.
 
 The key activities for the day are:
 
-#### On starting the day (**TK**) At least one engineer to:
+#### On starting the day, at least one engineer to:
 
 - [ ] Check the #laa-ops  slack channels for any issues to investigate
 - [ ] Check the board for any user requests that have been raised and not assigned
 - [ ] Get a handover from the on call engineer about any issues out of hours
 - [ ] Read through  #laa-aws-webops-team slack channel
 
-#### During support hours (**TK**) At least one engineer to:
+#### During support hours at least one engineer to:
 
 - [ ] Actively participate in #laa-ops to field support requests, triage, prioritise and fix
 
@@ -92,15 +92,13 @@ So for example:
 
 If someone is asking for help that will be quick to do (less than 15 mins) or is mainly advice then keep the interaction in channel and get it done.
 
-If someone needs something that takes longer, is more challenging to complete or you find you've spent longer than 15 mins on it, then continue to talk in the channel but also ask the person asking for help to raise a ticket using the GitHub issue link:
+If someone needs something that takes longer, is more challenging to complete or you find you've spent longer than 15 mins on it, then continue to talk in the channel but also raise a ticket in Jira, and then inform the product manager that you will need to begin working on this.
 
-
-
-The purpose of the ticket is to keep a record of the work we are doing and how it is progressing. It is not the primary communication channel with the person who raised the problem &emdash; this should remain slack where you can provide a richer and more human interaction, answering questions if necessary. The engineer working on the ticket should update the ticket for our record as work progresses.
+The purpose of the Jira ticket is to keep a record of the work we are doing and how it is progressing. It is not the primary communication channel with the person who raised the problem &emdash; this should remain slack where you can provide a richer and more human interaction, answering questions if necessary. The engineer working on the ticket should update the ticket for our record as work progresses.
 
 In many cases it can be more helpful for the engineer on support to create the ticket rather than the person reporting the problem as you will be able to provide more relevant context.
 
-Once they have created the ticket it will appear in the Support To Do column of our sprint board. It can then be moved into the relevant columns as you work on it.
+Once they have created the ticket it will appear in the To Do column of our Jira board. It can then be moved into the relevant columns as you work on it.
 
 ## What is our incident process
 
