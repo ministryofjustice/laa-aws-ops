@@ -5,7 +5,7 @@ Please provide all feedback via the LAA Aws ops team's slack channel, or #laa-op
 
 ## LAA AWS Ops team operational processes
 
-This is a record of the operational processes that we will use to support our users and to maintain the cloud platform.
+This is a record of the operational processes that we will use to support our users.
 
 ## Hours of support
 
