@@ -1,2 +1,2 @@
 # laa-aws-ops
-Docs about how we work
+This is a public repo, containing docs about how we work: Operational processes, team structure, and product artefacts etc.
