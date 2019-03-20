@@ -125,7 +125,6 @@ Our documentation lives either in Confluence or here in this Repo. This document
 
 This document is a work in progress, and we are currently reviewing the following:
 
-- [ ] Review on-call options
 - [ ] Review documentation process
 - [ ] Review incident management process
 
