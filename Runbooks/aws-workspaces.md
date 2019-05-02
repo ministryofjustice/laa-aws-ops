@@ -17,5 +17,6 @@
 - [Getting started with Workspaces](https://dsdmoj.atlassian.net/wiki/spaces/aws/pages/1468629070/Getting+started+with+your+AWS+WorkSpaces)
 - [Background](https://dsdmoj.atlassian.net/wiki/spaces/aws/pages/1465974863/Workspaces+-+Citrix+Replacement)
 - [Process for requesting a workspace](https://dsdmoj.atlassian.net/wiki/spaces/aws/pages/1414922344/Process+for+Requesting+a+new+workspace+new+role)
+- [Managing Workspaces for Business Users](https://dsdmoj.atlassian.net/wiki/spaces/LM/pages/1443365352/Managing+Workspaces+for+Business+Users)
 
 
