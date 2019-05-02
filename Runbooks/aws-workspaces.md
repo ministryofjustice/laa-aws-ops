@@ -13,12 +13,9 @@
 - **Expected speed and frequency of releases**: Once released, routine updates and enhancements to the service will be implemented through our fortnightly sprint-cycle. If there is an urgent change (such as in the case of a major outage), this will be addressed and released as soon as our support team becomes available.
 - **Impact of an outage**: 
 
-##  Useful links
-
+## Useful Links
 - [Getting started with Workspaces](https://dsdmoj.atlassian.net/wiki/spaces/aws/pages/1468629070/Getting+started+with+your+AWS+WorkSpaces)
-
 - [Background](https://dsdmoj.atlassian.net/wiki/spaces/aws/pages/1465974863/Workspaces+-+Citrix+Replacement)
-
 - [Process for requesting a workspace](https://dsdmoj.atlassian.net/wiki/spaces/aws/pages/1414922344/Process+for+Requesting+a+new+workspace+new+role)
 
 
