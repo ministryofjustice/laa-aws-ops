@@ -19,13 +19,14 @@ The key activities for the day are:
 
 - [ ] Check the #laa-ops  slack channels for any issues to investigate
 - [ ] Check the board for any user requests that have been raised and not assigned
-- [ ] Get a handover from the on call engineer about any issues out of hours
-- [ ] Read through  #laa-aws-webops-team slack channel
+- [ ] ~Get a handover from the on-call engineer about any issues out of hours~ if on-call support is being provided
+- [ ] Read through [#laa-aws-webops-team](https://mojdt.slack.com/messages/CDTDZ2SN8) slack channel
+- [ ] Review team channels for any reports from engineer covering post-5pm support of previous working dat
 
 #### During support hours at least one engineer to:
 
 - [ ] Actively participate in #laa-ops to field support requests, triage, prioritise and fix
-- [ ] *Monitor user support requests being added to the board and triage them for priority*
+- [ ] _Monitor user support requests being added to the board and triage them for priority_
 
 #### The whole support team to:
 
@@ -35,19 +36,19 @@ The key activities for the day are:
 
   #### Before ending the day, at least one engineer to:
 
-- [ ] Handover information about any planned work or in progress high priority incidents to on call engineer
+- [ ] Handover information about any planned work or in progress high priority incidents to on-call/post-5pm engineer
 
 ### #laa-ops channel
 
 The slack channel is our main entry point for support. We encourage people to ask questions and report problems in this channel and we'll do the best we can to help them.
 
-One engineer should be available to answer questions throughout the hours of support (8AM - 6PM). This will take a bit of co-ordination for lunch etc so the support team should make sure someone is nominated for each period.
+One engineer should be available to answer questions throughout the hours of support (8am - 6pm). This will take a bit of co-ordination for lunch, etc. so the support team should make sure someone is nominated for each period.
 
 When the solution is a quick one, it is good to have the whole conversation in the channel rather than in a direct message so that other people can search/see what the resolution was (it might help them or you in the future).
 
 ## Triage
 
-If a request is likely to takeless than 15 mins, or is mainly advice, then keep the interaction within the laa-aws-ops channel and get it done.
+If a request is likely to take less than 15 mins, or is mainly advice, then keep the interaction within the **#laa-ops** channel and get it done.
 
 If someone needs something that takes longer, is more challenging to complete or you find you've spent longer than 15 mins on it, then continue to talk in the channel but also raise a ticket in Jira, and then inform the product manager that you will need to begin working on this.
 
@@ -59,16 +60,16 @@ Once they have created the ticket it will appear in the To Do column of our Jira
 
 ## What is our incident process
 
-An incident starts when a member of the support team says that it has. It is usually triggered by an alert that indicates a problem. The team member that calls it will send a message saying that there is an incident in progress to #laa-ops.
+An incident starts when a member of the support team says that it has. It is usually triggered by an alert that indicates a problem. The team member that calls it will send a message saying that there is an incident in progress to **#laa-ops**.
 
 Support team chooses an incident lead. This person will be the main investigator of the incident. They start to work on the problem, calling on other team members (from the whole team) to help as required.
 
 The rest of the support team communicates the incident out to those who are impacting, including giving updates at regular schedules. The people that they communicate to include:
 
-- Users who are affected by the problem  via #laa-ops
-- People in the team who manage communication with senior leadership in MoJ - Nisha, Paddy and Simon Pledger 
+- Users who are affected by the problem  via **#laa-ops**
+- People in the team who manage communication with senior leadership in MoJ - Nisha, Paddy and Simon Pledger (for STEC/6dg-related issues)
 
-In a high priority incident (see below), the support team will gather every 1 hour to work out if additional people/skills are needed and update any external comms.
+In a high priority incident (see below), the support team will gather every hour to work out if additional people/skills are needed and update any external comms.
 
 Once the incident is resolved, the support team will communicate that out and prepare for a post mortem.
 
@@ -103,17 +104,17 @@ We currently publish our postmortem reports on Confluence, and will look for a p
 
 ## How we do on call
 
-The AWS ops team currently has no on-call process, but we have trialled weekend pagerduty during a major incident. Discussion is ongoing about the possibility of formally implementing weekend on-call duty.
+The AWS ops team currently has no on-call process, but we have trialled weekend PagerDuty during a major incident. Discussion is ongoing about the possibility of formally implementing weekend on-call duty.
 
 ## Where does our documentation live
 
-Our documentation lives either in Confluence or here in this Repo. This documentation includes architecture, runbooks and common issues.
+Our documentation lives either in Confluence or here in this repository. This documentation includes architecture, runbooks and common issues.
 
 ## Performance and Metrics
 
 ### We currently measure:
 *  Time to resolution.
-*  Time at each stage; To to, in progress, done
+*  Time at each stage; To-Do, In Progress, Done
 
 ### We would like to measure:
 
