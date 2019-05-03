@@ -31,5 +31,3 @@ To ensure that people looking at your runbook can get the information they need 
 Your service’s runbook doesn’t need to be hosted in a central repository, but you should make sure that all your stakeholders and peers are aware of how to find it and link to it from your infrastructure tags so that people supporting your service’s infrastructure can find it if they need to.
 
 You should also make sure that anyone who is likely to need to access your runbook can access it. The easiest way to do this is to publish it openly on the internet, but your service may have security constraints that mean that isn’t possible at the moment.
-
-Open Government Licence
