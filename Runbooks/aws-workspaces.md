@@ -18,5 +18,6 @@
 - [Background](https://dsdmoj.atlassian.net/wiki/spaces/aws/pages/1465974863/Workspaces+-+Citrix+Replacement)
 - [Process for requesting a workspace](https://dsdmoj.atlassian.net/wiki/spaces/aws/pages/1414922344/Process+for+Requesting+a+new+workspace+new+role)
 - [Managing Workspaces for Business Users](https://dsdmoj.atlassian.net/wiki/spaces/LM/pages/1443365352/Managing+Workspaces+for+Business+Users)
+- [Workspaces code repository (Private)](https://github.com/ministryofjustice/laa-aws-infrastructure)
 
 
