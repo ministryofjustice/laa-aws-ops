@@ -1,5 +1,5 @@
 # --Draft--
-This is draft document, outlining the AWS Ops team's processes, and based on MoJ Cloud Platform's methodology. This process is continually reviewed and improved. We welcome all feedback: ideally via the LAA Aws ops team's slack channel, or #laa-ops slack channel
+This is draft document, outlining the AWS Ops and 6dg Ops team's processes, and based on MoJ Cloud Platform's methodology. This process is continually reviewed and improved. We welcome all feedback: ideally via the LAA Aws ops and LAA 6dg ops slack channels, or #laa-ops slack channel
 
 ## Operational processes
 
@@ -9,19 +9,40 @@ This is a record of the operational processes that we will use to support our us
 
 LAA AWS Ops team currently works - and provides support - from 8am to 6pm, Monday to Friday. During this time we will work on support requests from teams and make sure someone is available to answer questions in [#laa-ops](https://mojdt.slack.com/messages/CEL68S0LD). The team member who responds may be working remotely.
 
+LAA 6dg Ops team provides support from 8am to 6pm Monday to Friday During this time we will work on support requests from teams and make sure someone is available to answer questions in [#laa-6dg-ops] The team member who responds may be working remotely.
+In addition they operate a rota system so that a resource is available to support out of hours from 6pm to late mainly to carry out releases and maintenance that need to be performed out of core business hours.
+
+As well as supporting UAT, Pre-Prod/Stage and PROD applications hosted on 6dg infrastructure (CCMS, CIS, MI, CWA, ERIC) LAA 6dg Ops also support the Dev/Test environments for these applications currently hosted in RedCentric.
+
 ## How does the support sub team work
 
-We always have two engineers assigned to support requests at any time. This support sub-team will triage incident requests raised to them in the laa aws ops slack channel.
+We always have two engineers assigned to support requests at any time. This support sub-team will triage incident requests raised to them in the laa aws ops or laa 6dg ops slack channels.
 
 The key activities for the day are:
 
-#### On starting the day, at least one engineer to:
+#### On starting the day, at least one LAA AWS Ops engineer to:
 
 - [ ] Check the #laa-ops  slack channels for any issues to investigate
 - [ ] Check the board for any user requests that have been raised and not assigned
-- [ ] ~Get a handover from the on-call engineer about any issues out of hours~ if on-call support is being provided
-- [ ] Read through [#laa-aws-webops-team](https://mojdt.slack.com/messages/CDTDZ2SN8) slack channel
-- [ ] Review team channels for any reports from engineer covering post-5pm support of previous working dat
+- [ ] Get a handover from the on-call engineer about any issues out of hours~ if on-call support is being provided
+- [ ] Read through [#laa-aws-webops-team](https://mojdt.slack.com/messages/CDTDZ2SN8) and [#laa-6dg-ops] slack channels
+- [ ] Review team channels for any reports from engineer covering post-5pm support of previous working Friday
+- [ ] Check the #laa-ops  slack channels for any issues to investigate
+
+#### On starting the day, at least one LAA 6dg Ops engineer to:
+
+- [ ] Check the #laa-ops  slack channels for any issues to investigate
+- [ ] Check the LAA 6dg Support board for any user requests that have been raised and not assigned
+- [ ] 6dg Ops duty consultant (DC) acknowledges receipt of ticket to service teams within (max) 2 hrs and either
+      a) actions ticket if straightforward OR
+      b) raises in daily stand-up to assign appropriate 6dg Ops resource
+- [ ] Get a handover from the on-call engineer about any issues out of hours if on-call support is being provided
+- [ ] Read through #laa-6dg-ops slack channels
+- [ ] Review team channels for any reports from engineer covering post-5pm support of previous working Friday
+- [ ] Check the #laa-ops  slack channels for any issues to investigate
+- [ ] Check digital_dba emails for any PROD issues raised via ServiceNow and raise tickets if required
+
+
 
 #### During support hours at least one engineer to:
 
@@ -128,4 +149,3 @@ This document is a work in progress, and we are currently reviewing the followin
 
 - [ ] Review documentation process
 - [ ] Review incident management process
-
