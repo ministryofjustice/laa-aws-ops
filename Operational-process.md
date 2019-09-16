@@ -1,22 +1,16 @@
-# --Draft--
-This is draft document, outlining the AWS Ops and 6dg Ops team's processes, and based on MoJ Cloud Platform's methodology. This process is continually reviewed and improved. We welcome all feedback: ideally via the LAA Aws ops and LAA 6dg ops slack channels, or #laa-ops slack channel
+# About this document
+This document outlines the AWS Ops and 6dg Ops team's processes, and is continually reviewed. We welcome all feedback via the LAA Aws ops and LAA 6dg ops slack channel: #laa-ops
 
-## Operational processes
+## Getting Support
+You can raise a support request for the 6DG or AWS Ops teams by posting in the [#laa-ops](https://mojdt.slack.com/messages/CEL68S0LD) slack channel.
 
-This is a record of the operational processes that we will use to support our users.
+LAA AWS Ops team works from 8am to 6pm, Monday to Friday. The team member who responds may be working remotely.
 
-## Hours of support
-
-LAA AWS Ops team currently works - and provides support - from 8am to 6pm, Monday to Friday. During this time we will work on support requests from teams and make sure someone is available to answer questions in [#laa-ops](https://mojdt.slack.com/messages/CEL68S0LD). The team member who responds may be working remotely.
-
-LAA 6dg Ops team provides support from 8am to 6pm Monday to Friday During this time we will work on support requests from teams and make sure someone is available to answer questions in [#laa-6dg-ops] The team member who responds may be working remotely.
-In addition they operate a rota system so that a resource is available to support out of hours from 6pm to late mainly to carry out releases and maintenance that need to be performed out of core business hours.
-
-As well as supporting UAT, Pre-Prod/Stage and PROD applications hosted on 6dg infrastructure (CCMS, CIS, MI, CWA, ERIC) LAA 6dg Ops also support the Dev/Test environments for these applications currently hosted in RedCentric.
+The 6DG team operates a rota system for out-of-hours releases and maintenance, typically from 6pm to midnight. It supports UAT, Pre-Prod/Stage and PROD applications hosted on 6dg infrastructure (CCMS, CIS, MI, CWA, ERIC) and the Dev/Test environments for these applications currently hosted in RedCentric.
 
 ## How does the support sub team work
 
-We always have two engineers assigned to support requests at any time. This support sub-team will triage incident requests raised to them in the laa aws ops or laa 6dg ops slack channels.
+We assign two engineers to support requests between 8am and 6pm. This support sub-team will triage incident requests raised to them in the [#laa-ops](https://mojdt.slack.com/messages/CEL68S0LD) slack channel.
 
 The key activities for the day are:
 
@@ -41,8 +35,6 @@ The key activities for the day are:
 - [ ] Review team channels for any reports from engineer covering post-5pm support of previous working Friday
 - [ ] Check the #laa-ops  slack channels for any issues to investigate
 - [ ] Check digital_dba emails for any PROD issues raised via ServiceNow and raise tickets if required
-
-
 
 #### During support hours at least one engineer to:
 
@@ -81,13 +73,13 @@ Once they have created the ticket it will appear in the To Do column of our Jira
 
 ## What is our incident process
 
-An incident starts when a member of the support team says that it has. It is usually triggered by an alert that indicates a problem. The team member that calls it will send a message saying that there is an incident in progress to **#laa-ops**.
+An incident starts when a member of the support team says that it has. It is usually triggered by an alert that indicates a problem. The team member that calls it will send a message saying that there is an incident in progress to [#laa-ops](https://mojdt.slack.com/messages/CEL68S0LD).
 
 Support team chooses an incident lead. This person will be the main investigator of the incident. They start to work on the problem, calling on other team members (from the whole team) to help as required.
 
 The rest of the support team communicates the incident out to those who are impacting, including giving updates at regular schedules. The people that they communicate to include:
 
-- Users who are affected by the problem  via **#laa-ops**
+- Users who are affected by the problem  via [#laa-ops](https://mojdt.slack.com/messages/CEL68S0LD)
 - People in the team who manage communication with senior leadership in MoJ - Nisha, Paddy and Simon Pledger (for STEC/6dg-related issues)
 
 In a high priority incident (see below), the support team will gather every hour to work out if additional people/skills are needed and update any external comms.
