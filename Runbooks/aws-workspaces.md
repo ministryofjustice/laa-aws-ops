@@ -15,6 +15,10 @@ AWS Workspaces also currently provide an on-demand method to access CCMS in case
 - **Expected speed and frequency of releases**: Workspaces are currently automatically updated with Security patches on at least a monthly basis, although it is not anticipated that these particular updates should have user-visible effects. Once released, routine updates and enhancements to the service will be implemented through our standard Agile Sprint-cycle. If there is an urgent change (such as in the case of a major outage), this will be addressed and further information released as our support team manages the situation.
 - **Impact of an outage**: In the event of an AWS Workspaces outage, users would be unable to access CIS, Business Objects, TOAD or CFIL [See Register of Technology](https://tech-register.netlify.com) (currently in Beta). For CCMS **only**, if  DOM1 access is unavailable _and_ AWS Workspaces are not accessible, users will not be able to access this service.
 
+## Contacts
+
+- CIS application: anne-marie.moran@justice.gov.uk
+
 ## Useful Links
 - [Getting started with Workspaces](https://dsdmoj.atlassian.net/wiki/spaces/aws/pages/1468629070/Getting+started+with+your+AWS+WorkSpaces)
 - [Background](https://dsdmoj.atlassian.net/wiki/spaces/aws/pages/1465974863/Workspaces+-+Citrix+Replacement)
